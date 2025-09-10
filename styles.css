@@ -45,11 +45,10 @@ h1 {
 #welcome-section {
     display: flex;
     justify-content: center;
-    padding-left: 25%;
-    padding-right: 25%;
 }
 
 #welcome {
+    max-width: 600px;
     background-color: white;
     padding: 50px;
     display: flex;
@@ -80,7 +79,7 @@ h1 {
     align-self: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     #about-section{
         flex-wrap: wrap;
         justify-content: center;
