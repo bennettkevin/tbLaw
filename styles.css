@@ -59,7 +59,7 @@ h1 {
 
 #about-section {
     display: flex;
-
+    margin-top: 10px;
 }
 
 #about {
@@ -69,10 +69,22 @@ h1 {
     align-items: center;
 }
 
+#about p {
+    font-size: large;
+    line-height: 2em;
+}
+
 #about-section img {
     width: 50%;
     height: auto;
     align-self: center;
+}
+
+@media screen and (max-width: 600px) {
+    #about-section{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
 
